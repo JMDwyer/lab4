@@ -1,0 +1,60 @@
+Model Selection Tab
+MOS model: Level 1 MOS
+
+Dimensions Tab
+AREA: 1 (Not Given, This is a multiplying factor, leave it to one for simplicity)
+SCALE: 1 (Not Given, One since we are modeling only one transistor in parallel)
+LENGTH: 7.8e-6
+WIDTH: 0.138e-3
+AD: 0.161e-8
+AS: 0.603e-8
+PD: 0 (Not Given, default)
+PS: 0.478e-3
+
+Resistors Tab
+RD: NaN (Calculated: RSH*NRD)
+RS: NaN (Calculated: RSH*NRS)
+RSH: 10
+NRD: 0.3
+NRS: 1
+
+DC Currents Tab
+VTO: 0.750 (Can be Calculated: TOX, NSUB)
+KP: NaN (Calculated: TOX, NSUB)
+GAMMA: 1.03 (Can be calculated: TOX, NSUB)
+PHI: 0.70 (Can be calculated: TOX, NSUB)
+(1)LAMBDA: .018 (Not Given, from lab 3 Handout)
+IS: 1.206e-13 (Not Given, Calculated: JS*AS)
+JS: 20e-6
+ND: 1 (Not Given, default)
+(3)DELTA: 0 (Not Given, default)
+(3)VMAX: 1.6e5
+(3)NFS: 1.17e11
+(3)ETA: 0 (Not Given, default)
+(3)THETA: 0 (Not Given, default)
+(3)KAPPA: 0.2 (Not Given, default)
+
+C-V Tab
+Model junction capacitance: No (Can be Yes)
+CGSO: 0.94e-9
+CGDO: 0.59e-9
+CGBO: 0.138e-9
+CBD: 1e-18 (Not Given, default)
+CBS: 1e-18 (Not Given, default)
+CJ: 0.39e-3
+MJ: 0.5
+CJSW: 264e-12
+MJSW: 0.18
+PB: 0.9
+FC: 0.5 (Not Given, default)
+Initial Condition: No
+
+Process Tab
+TOX: 0.055e-6
+LD: 1.6e-6
+NSUB: 1e16
+NSS: 0.7e11
+U0: 650
+(3)XJ: 2.0e-6
+TPG: +1
+
