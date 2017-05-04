@@ -1,0 +1,336 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:adl1105
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ALD1105 U1
+U 1 1 59095F65
+P 5000 2700
+F 0 "U1" H 4950 2950 60  0000 C CNN
+F 1 "ALD1105" H 5000 2350 60  0001 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 5000 2350 60  0001 C CNN
+F 3 "" H 5000 2350 60  0000 C CNN
+	1    5000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ALD1105 U1
+U 2 1 59095FE2
+P 5000 1850
+F 0 "U1" H 4950 2100 60  0000 C CNN
+F 1 "ALD1105" H 5000 1500 60  0001 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 5000 1500 60  0001 C CNN
+F 3 "" H 5000 1500 60  0000 C CNN
+	2    5000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L ALD1105 U1
+U 3 1 59096069
+P 4350 1850
+F 0 "U1" H 4300 2100 60  0000 C CNN
+F 1 "ALD1105" H 4350 1500 60  0001 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 4350 1500 60  0001 C CNN
+F 3 "" H 4350 1500 60  0000 C CNN
+	3    4350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L ALD1105 U1
+U 4 1 590960F2
+P 5000 3400
+F 0 "U1" H 4950 3650 60  0000 C CNN
+F 1 "ALD1105" H 5000 3050 60  0001 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 5000 3050 60  0001 C CNN
+F 3 "" H 5000 3050 60  0000 C CNN
+	4    5000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ALD1105 U2
+U 4 1 59096476
+P 6450 3400
+F 0 "U2" H 6400 3650 60  0000 C CNN
+F 1 "ALD1105" H 6450 3050 60  0001 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 6450 3050 60  0001 C CNN
+F 3 "" H 6450 3050 60  0000 C CNN
+	4    6450 3400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ALD1105 U2
+U 2 1 59096403
+P 7200 1850
+F 0 "U2" H 7150 2100 60  0000 C CNN
+F 1 "ALD1105" H 7200 1500 60  0001 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 7200 1500 60  0001 C CNN
+F 3 "" H 7200 1500 60  0000 C CNN
+	2    7200 1850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ALD1105 U2
+U 1 1 590964D0
+P 6450 2600
+F 0 "U2" H 6400 2850 60  0000 C CNN
+F 1 "ALD1105" H 6450 2250 60  0001 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 6450 2250 60  0001 C CNN
+F 3 "" H 6450 2250 60  0000 C CNN
+	1    6450 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L ALD1105 U2
+U 3 1 5909652D
+P 6450 1850
+F 0 "U2" H 6400 2100 60  0000 C CNN
+F 1 "ALD1105" H 6450 1500 60  0001 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 6450 1500 60  0001 C CNN
+F 3 "" H 6450 1500 60  0000 C CNN
+	3    6450 1850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2100 4500 2200
+Wire Wire Line
+	5150 2950 5150 3050
+Wire Wire Line
+	4150 1800 4050 1800
+Wire Wire Line
+	4050 1800 4050 2650
+Wire Wire Line
+	3600 2650 4800 2650
+Wire Wire Line
+	3600 3350 4800 3350
+Wire Wire Line
+	5200 2650 5300 2650
+Wire Wire Line
+	5300 2650 5300 3750
+Wire Wire Line
+	5300 3350 5200 3350
+Wire Wire Line
+	5150 3650 5150 3750
+Wire Wire Line
+	5150 3750 6300 3750
+Connection ~ 5300 3350
+Wire Wire Line
+	4500 1400 4500 1500
+Wire Wire Line
+	4500 1400 7050 1400
+Wire Wire Line
+	5150 1400 5150 1500
+Wire Wire Line
+	5150 2100 5150 2350
+Wire Wire Line
+	4500 2200 5150 2200
+Connection ~ 5150 2200
+Wire Wire Line
+	4800 1800 4700 1800
+Wire Wire Line
+	4700 1800 4700 3350
+Wire Wire Line
+	4550 1800 4600 1800
+Wire Wire Line
+	4600 1800 4600 1400
+Connection ~ 4600 1400
+Wire Wire Line
+	5200 1800 5250 1800
+Wire Wire Line
+	5250 1800 5250 1400
+Connection ~ 5150 1400
+Wire Wire Line
+	6250 3350 6150 3350
+Wire Wire Line
+	6150 3750 6150 2650
+Wire Wire Line
+	6300 3750 6300 3650
+Wire Wire Line
+	6300 3050 6300 2950
+Wire Wire Line
+	6300 2350 6300 2100
+Wire Wire Line
+	6150 2650 6250 2650
+Connection ~ 6150 3350
+Wire Wire Line
+	6650 3350 7850 3350
+Wire Wire Line
+	6800 3350 6800 1800
+Wire Wire Line
+	6800 1800 6650 1800
+Wire Wire Line
+	6250 1800 6150 1800
+Wire Wire Line
+	6150 1800 6150 1400
+Wire Wire Line
+	7050 1400 7050 1500
+Wire Wire Line
+	6300 1500 6300 1400
+Connection ~ 6300 1400
+Wire Wire Line
+	7000 1800 6900 1800
+Wire Wire Line
+	6900 1800 6900 1400
+Connection ~ 6900 1400
+Wire Wire Line
+	7050 2100 7050 2200
+Wire Wire Line
+	7050 2200 6300 2200
+Connection ~ 6300 2200
+Wire Wire Line
+	7400 1800 7500 1800
+Wire Wire Line
+	7500 1800 7500 2650
+Wire Wire Line
+	6650 2650 7850 2650
+Connection ~ 6150 1400
+Connection ~ 5250 1400
+Connection ~ 6150 3750
+Connection ~ 5300 3750
+Connection ~ 4050 2650
+Text Label 3600 2650 0    60   ~ 0
+R
+Connection ~ 7500 2650
+Text Label 7850 2650 2    60   ~ 0
+S
+Wire Wire Line
+	6800 2300 5150 2300
+Connection ~ 5150 2300
+Connection ~ 6800 2300
+Wire Wire Line
+	4700 2150 6300 2150
+Connection ~ 6300 2150
+Connection ~ 4700 2150
+Connection ~ 6800 3350
+Text Label 7850 3350 2    60   ~ 0
+Q!
+Connection ~ 4700 3350
+Text Label 3600 3350 0    60   ~ 0
+Q
+$Comp
+L VDD #PWR01
+U 1 1 5909B803
+P 5700 1300
+F 0 "#PWR01" H 5700 1150 50  0001 C CNN
+F 1 "VDD" H 5700 1450 50  0000 C CNN
+F 2 "" H 5700 1300 50  0000 C CNN
+F 3 "" H 5700 1300 50  0000 C CNN
+	1    5700 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR02
+U 1 1 5909B94F
+P 5700 3850
+F 0 "#PWR02" H 5700 3700 50  0001 C CNN
+F 1 "VSS" H 5700 4000 50  0000 C CNN
+F 2 "" H 5700 3850 50  0000 C CNN
+F 3 "" H 5700 3850 50  0000 C CNN
+	1    5700 3850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5700 3750 5700 3850
+Connection ~ 5700 3750
+Wire Wire Line
+	5700 1300 5700 1400
+Connection ~ 5700 1400
+$Comp
+L CONN_01X07 P1
+U 1 1 5909BCE4
+P 2050 2600
+F 0 "P1" H 2050 3000 50  0000 C CNN
+F 1 "CONN_01X07" V 2150 2600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 2050 2600 50  0001 C CNN
+F 3 "" H 2050 2600 50  0000 C CNN
+	1    2050 2600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 2300 2400 2300
+Wire Wire Line
+	2400 2300 2400 2200
+Wire Wire Line
+	2250 2500 2850 2500
+Wire Wire Line
+	2850 2500 2850 2600
+Wire Wire Line
+	2250 2600 2600 2600
+Wire Wire Line
+	2250 2700 2600 2700
+Wire Wire Line
+	2250 2800 2600 2800
+Wire Wire Line
+	2250 2900 2600 2900
+NoConn ~ 2250 2400
+Text Label 2600 2600 2    60   ~ 0
+S
+Text Label 2600 2700 2    60   ~ 0
+R
+Text Label 2600 2800 2    60   ~ 0
+Q
+Text Label 2600 2900 2    60   ~ 0
+Q!
+$Comp
+L VDD #PWR03
+U 1 1 5909C08B
+P 2400 2200
+F 0 "#PWR03" H 2400 2050 50  0001 C CNN
+F 1 "VDD" H 2400 2350 50  0000 C CNN
+F 2 "" H 2400 2200 50  0000 C CNN
+F 3 "" H 2400 2200 50  0000 C CNN
+	1    2400 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR04
+U 1 1 5909C12F
+P 2850 2600
+F 0 "#PWR04" H 2850 2450 50  0001 C CNN
+F 1 "VSS" H 2850 2750 50  0000 C CNN
+F 2 "" H 2850 2600 50  0000 C CNN
+F 3 "" H 2850 2600 50  0000 C CNN
+	1    2850 2600
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
